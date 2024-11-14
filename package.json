@@ -1,0 +1,14 @@
+{
+  "name": "microfrontend-angular-next",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@4.5.1",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:angular": "yarn workspace mf-angular run dev",
+    "dev:next": "yarn workspace mf-next run dev"
+  }
+}
